@@ -1,0 +1,237 @@
+body {
+margin:auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#232323;
+}
+
+p {
+margin:  0 0 1em 0;
+padding:  0;
+}
+
+a {
+color:#3080bb;
+text-decoration:none;
+}
+
+a:hover {
+color:#a71c27;
+text-decoration:none;
+}
+
+ul, ol {
+font-weight:bold;
+margin-left:0;
+padding-left:25px;
+margin-top:7px;
+line-height:20px;
+}
+
+
+#maincontainer {
+margin:0 auto;
+width:90%;
+}
+
+.welcome {
+font-weight:bold;
+clear:both;
+padding:10px 6px 10px 2px;
+}
+
+.textlang {
+margin-left:5px;
+width:150px;
+border:1px solid #CCCCCC;
+}
+
+.go {
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+background:url('../images/go.jpg');
+border:0px;
+padding:2px 4px 2px 4px;
+}
+
+.strip {
+clear:both;
+background:url('../images/strip.jpg') repeat-x;
+border:0;
+padding:30px;
+}
+
+.searchtextbox {
+border:1px solid #CCCCCC;
+width:250px;
+height:20px;
+}
+
+.search {
+border:0px;
+background:url('../images/magnifier.png') no-repeat;
+width:50px;
+height:45px;
+}
+
+.leftbox {
+margin-top:15px;
+float:left;
+width:20%;
+}
+
+.rightbox {
+width:100%;
+padding:0 10px;
+margin-top:15px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.heading {
+background:url('../images/heading.jpg') repeat-x;
+color:#FFFFFF;
+font-weight:bold;
+padding:8px 10px 8px 10px;
+height:auto;
+overflow:hidden;
+}
+
+.lnav {
+background:url('../images/lback.jpg') repeat-x;
+}
+
+.lnav .content{
+padding:10px;
+}
+
+.conthead {
+font-size:16px;
+font-weight:bold;
+color:#a71c27;
+margin-top:5px;
+margin-bottom:7px;
+}
+
+.footerbox {
+clear:both;
+background:url('../images/footer.jpg') repeat-x;
+color:#FFFFFF;
+font-weight:bold;
+padding:10px;
+}
+
+.footer {
+font-weight:bold;
+padding:10px 10px 30px 10px;
+}
+
+.rightbox table, th, td {
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+
+.rightbox caption {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.rightbox td, th {
+    padding: 7px 15px;
+}
+
+.rightbox thead th {
+    text-align: left;
+    font-size: 100% !important;
+    background:#7CB8E2 repeat-x scroll center left;
+    color:#fff;
+}
+.rightbox tfoot th {
+    text-align: left;
+    font-size: 100% !important;
+    background:#7CB8E2 repeat-x scroll center left;
+    color:#fff;
+}
+.rightbox tbody th {
+    font-weight: bold;
+}
+.rightbox tbody td {
+
+}
+.rightbox .shown {
+    border-bottom:1px dashed #7CB8E2;
+}
+.rightbox .hiddenodd {
+    border-bottom:1px dashed #7CB8E2;
+    background:#F7F9FC none repeat-x scroll center left;
+}
+.rightbox .hiddeneven {
+    border-bottom:1px dashed #7CB8E2;
+    background:#FCFDFE none repeat-x scroll center left;
+}
+.rightbox tr {
+    background: #FCFDFE;
+}
+.rightbox .even {
+    background:#FCFDFE none repeat-x scroll center left;
+    border-bottom:1px dashed #7CB8E2;
+}
+.rightbox .odd {
+    background:#F7F9FC none repeat-x scroll center left;
+    border-bottom:1px dashed #7CB8E2;
+    
+}
+.rightbox .oddmore {
+    border-bottom:none;
+    background:#F7F9FC none repeat-x scroll center left;
+}
+.rightbox .evenmore {
+    border-bottom:none;
+    background:#FCFDFE none repeat-x scroll center left;
+}
+
+.rightbox table a {
+    font-size: 12px;
+    font-weight: bold;
+}
+.rightbox table a:link {
+    color: #718ABE;
+    text-decoration: none;
+}
+
+.rightbox table a:visited {
+    color: #718ABE;
+    text-decoration: none;
+}
+.rightbox table a:hover {
+    color: #B4241B;
+    text-decoration: underline !important;
+}
+.rightbox tfoot th, tfoot td {
+    font-size: 14px;
+}
+.rightbox div.arrow {
+    background:transparent url(../images/arrows.png) no-repeat scroll 0px -16px;
+    width:16px;
+    height:16px;
+    display:block;
+    cursor: pointer;
+}
+.rightbox div.up { 
+    background-position:0px 0px;
+}
+.rightbox table div .linkbutton {
+    background: url(../images/menubg.gif) repeat-x;
+    color: #FCFDFE;
+    text-align:center;
+    font-size: 13px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    font-weight:bold;
+    width:auto;
+    border:none;
+}

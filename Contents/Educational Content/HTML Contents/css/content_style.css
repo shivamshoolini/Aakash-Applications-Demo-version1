@@ -1,0 +1,504 @@
+/* 
+    Document   : content_style
+    Created on : 23 Apr, 2011, 3:50:39 PM
+    Author     : rkjangir
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.contentPane {
+    margin:0 auto;
+    width:100%;
+    font-size: 13px;
+}
+#contentPanel {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right:  0px;
+    margin-left: 0px;
+}
+
+#contentPanel h1 {
+    text-align: center;
+    color: #21bef7;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#contentPanel h2 {
+    text-align: left;
+    color: #b802ab;
+    font-size: 18px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    width: auto;
+}
+#contentPanel h3 {
+    text-align: left;
+    color: #818181;
+    font-size: 14px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: auto;
+    border-bottom: 2px solid #818181;
+}
+#contentPanel h4 {
+    text-align: left;
+    color: #414140;
+    font-size: 16px;
+    margin-left:15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: auto;
+	font-weight:bold;
+}
+#contentPanel h5 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left:10px;
+}
+#contentPanel p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    text-align:justify;
+}
+#contentPanel table {
+    width:95%;
+    border:2px solid #fefefe;
+    margin-left: 15px;
+}
+#contentPanel td {
+    padding:2px;
+    padding-left:10px;
+}
+#contentPanel th {
+    padding:10px;
+    color: #ffffff;
+}
+#contentPanel ul {
+    margin-left:40px;
+}
+
+#contentPanel ol {
+    margin-left: 40px;
+}
+#contentPanel li {
+    padding-top:3px;
+    padding-bottom:3px;
+}
+#contentPanel img {
+    max-width: 600px;
+}
+#contentPanel .gray-th {
+    background: #8f6106;
+    color: #fefefe;
+    padding:10px;
+}
+#contentPanel .gray-td {
+    background: #ffe6b4;
+    color: #4a4a48;
+    padding:5px;
+}
+#contentPanel .pink-th {
+    background: #f06ba9;
+    color: #fefefe;
+    padding:10px;
+}
+#contentPanel .pink-td {
+    background: #fbdfeb;
+    color: #4a4a48;
+    padding:5px;
+}
+
+#contentPanel .blue-th {
+    background: #1C63B3;
+    color: #fefefe;
+    padding:10px;
+}
+#contentPanel .blue-td {
+    background: #A4BFEE;
+    color: #4a4a48;
+    padding:5px;
+}
+
+#contentPanel .roman-small {
+    list-style: lower-roman;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#contentPanel fieldset {
+    margin:10px;
+    padding:5px;
+}
+
+#contentPanel legend {
+    padding:3px;
+}
+#contentPanel .activity {
+    background: #c9f0fe;
+    border:none;
+}
+#contentPanel .activity-legend {
+    border:1px solid #fefefe;
+    background: #fcfbd1;
+    font-size: 16px;
+	font-weight:bold;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+    color: #21bef7;
+    margin-left: 15px;
+}
+#contentPanel .activity-list {
+    list-style: square;
+}
+#contentPanel .activity-sub-list {
+    list-style: lower-latin;
+}
+#contentPanel .know-more {
+    background: #ffe5b8;
+    border:3px solid #f58220;
+    -moz-border-radius:15px;
+    border-radius: 15px;
+   -webkit-border-radius: 15px;
+
+}
+#contentPanel .know-more-legend {
+    border:1px solid #f58220;
+    background: white;
+    font-size: 16px;
+	font-weight:bold;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+    color: #f58220;
+    margin-left: 15px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+
+}
+#contentPanel .know-more-heading {
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+#contentPanel .green-th {
+    background: #0eab0e;
+    color: #fefefe;
+    padding:10px;
+	padding:10px;
+}
+#contentPanel .green-td {
+    background: #c2e3c2;
+    color: #4a4a48;
+    padding:5px;
+}
+#contentPanel .question {
+    border:5px solid #a471b6;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+    padding-bottom: 10px;
+}
+#contentPanel .question-heading {
+    border-bottom:4px solid #a471b6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    background: #d4bcdc;
+    margin-bottom: 10px;
+}
+#contentPanel .question-list {
+    list-style: decimal;
+    color: #21bef7;
+}
+#contentPanel .question-sub-list {
+	list-style: lower-latin;
+}
+#contentPanel .exercise {
+    background: #cce7d4;
+    border:3px solid #676767;
+    -moz-border-radius:15px;
+    border-radius: 15px;
+   -webkit-border-radius: 15px;
+
+}
+#contentPanel .exercise-legend {
+    border:1px solid #41ba7c;
+    background: #41ba7c;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fefefe;
+    padding:10px;
+    margin-left: 20px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+
+}
+
+#contentPanel .exercise-list {
+    list-style: decimal;
+    color: #171717;
+}
+#contentPanel .exercise-sub-list {
+    list-style: lower-latin;
+    color: #171717;
+}
+
+#contentPanel .what-learnt {
+    background: #fbdfeb;
+    border:3px solid #f06ba9;
+    -moz-border-radius:15px;
+    border-radius: 15px;
+   -webkit-border-radius: 15px;
+
+}
+#contentPanel .what-learnt-legend {
+    border:1px solid #f49ac1;
+    background: #f49ac1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fefefe;
+    padding:10px;
+    margin-left: 20px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+
+}
+
+#contentPanel .what-learnt-list {
+    list-style: square;
+    color: #505550;
+}
+#contentPanel .what-learnt-sub-list {
+    list-style: lower-latin;
+    color: #505550;
+}
+
+#contentPanel .equation {
+	color: #21bef7;
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:16px;
+}
+
+#contentPanel .example {
+	color: #000000;
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-bottom:3px solid #21bef7;
+	border-top:3px solid #21bef7;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+#contentPanel .exam_no {
+	color: #21bef7;
+	font-size:16px;
+	font-weight:bold;
+	margin-top:0px;
+	margin-left:10px;
+}
+#contentPanel .example-list {
+	list-style:lower-latin;
+}
+#contentPanel .images {
+	text-align:center;
+	font-size:small;
+	width:89%;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#contentPanel .person {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+	padding-bottom:10px;
+	background: #F9D0A4;
+
+}
+#contentPanel .person-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    background: #F1952E;
+	color:#FFFFFF;
+}
+#contentPanel .think {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+	padding-bottom:10px;
+	background: #F9D0A4;
+	border:3px solid #F1952E;
+
+}
+#contentPanel .think-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    background: #F1952E;
+	color:#FFFFFF;
+}
+#contentPanel .think-list {
+	list-style:square;
+}
+
+#contentPanel .project {
+    background: #cce7d4;
+    border:3px solid #676767;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+    padding-bottom:10px;
+    -moz-border-radius:15px;
+    border-radius: 15px;
+   -webkit-border-radius: 15px;
+}
+#contentPanel .project-heading {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 8px solid #fde24f;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#contentPanel .project-list {
+    list-style: decimal;
+    color: #171717;
+}
+ #contentPanel .project-sub-list {
+    list-style: lower-latin;
+    color: #171717;
+}
+
+#contentPanel .keywords {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+    padding-bottom:10px;
+}
+#contentPanel .keywords-heading {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #fde24f;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#contentPanel .keywords-list {
+    list-style-type: square;
+    list-style-position: inside;
+    color: #171717;
+}
+ #contentPanel .keywords-sub-list {
+    list-style: lower-latin;
+    color: #171717;
+}
+#contentPanel .paheli {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #fde5bd;
+    border-top:1px solid  #010101;
+    border-bottom:1px solid #010101;
+}
+#contentPanel .boojho {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #bddec9;
+    border-top:1px solid  #010101;
+    border-bottom:1px solid #010101;
+}
+#contentPanel .paheli-heading {
+    text-align: center;
+    border: none;
+    color: #010101;
+}
+#contentPanel .paheli .boojho p {
+    padding-top: 10px;
+    padding-bottom:0px;
+}
+#contentPanel .paheli {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #fde5bd;
+    border-top:1px solid  #010101;
+    border-bottom:1px solid #010101;
+}
+
+#contentPanel .caution {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #fe63b1;
+    font-weight:bold;
+    border-top: 2px solid #fe63b1;
+    border-bottom: 2px solid #fe63b1;
+}
+#contentPanel .info {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+    background-color: #c1c2e1;
+    padding-left:10px;
+    padding-right: 10px;
+}
+#contentPanel .vertical_middle {
+    vertical-align:middle;
+}
+
+
+#contentPanel .normaltable { 
+    width:1%; 
+    margin-left: 5px; 
+    text-align: center; 
+}

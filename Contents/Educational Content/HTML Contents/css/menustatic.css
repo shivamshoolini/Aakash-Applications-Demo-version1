@@ -1,0 +1,81 @@
+#mbar{
+width: 900px;
+margin: 0 auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+
+#mbar .left {
+height:40px;
+display:inline;
+float:left;
+background: url('../images/leftcorner.jpg') top left no-repeat;
+width:13px;
+}
+
+#mbar .center {
+height:20px;
+float:left;
+width:876px;
+background: url('../images/divider.jpg') top center repeat-x;
+height:40px;
+}
+
+#mbar .right {
+height:40px;
+display:inline;
+float:right;
+background: url('../images/rightcorner.jpg') top right no-repeat;
+width:11px;
+}
+
+#mbar ul {
+text-align:center;
+padding:10px;
+width:856px;
+margin: 0;
+float: left;
+font: bold 80% arial;
+}
+
+#mbar ul li{
+display: inline;
+}
+
+#mbar span{
+padding-left:43px;
+padding-right:43px;
+color:#FFFFFF;
+}
+
+#mbar a{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#mbar a:hover{
+color:#60b2e2;
+text-decoration:none;
+}
+
+
+
+/* */
+.news-cont-border {
+float:left;
+width:40%;
+background:#BBBBBB;
+padding:1px;
+margin-bottom:20px;
+margin-right:20px;
+}
+
+.news-cont {
+float:left;
+width:100%;
+background:#DDDDDD;
+}
+
+.news-text {
+padding:10px;
+}
